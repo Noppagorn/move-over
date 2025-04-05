@@ -1,0 +1,41 @@
+/data
+/verify
+/runs
+/prepared_dataset
+/sec
+/database/uploadGate/images
+/downloads
+/uploadGate
+*.pyc
+__pycache__/
+# Python package build directories
+build/
+dist/
+*.egg-info/
+*.egg
+# Python virtual environment
+venv/
+env/
+.env/
+.venv/
+# Python cache and temporary files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+# Distribution / packaging
+.Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
