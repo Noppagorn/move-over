@@ -111,6 +111,21 @@ uploadGate/
 }
 ```
 
+### Drive Controller Scripts
+
+The `driveController` directory contains utility scripts for managing Google Drive operations:
+
+- `listDriveTree.py`: Lists and displays the hierarchical structure of files and folders in Google Drive
+- `clearDrive.py`: Provides functionality to clear or manage content in Google Drive
+- `driveInfo.py`: Retrieves and displays information about Google Drive files and folders
+- `driveShell.py`: Implements a shell-like interface for Google Drive operations
+
+These scripts use the Google Drive API and require proper authentication setup through service account credentials. They are particularly useful for:
+- Visualizing the structure of your Google Drive
+- Managing and organizing files in bulk
+- Retrieving detailed information about files and folders
+- Performing drive operations through an interactive shell interface
+
 ## API Reference
 
 ### Connection and Setup
